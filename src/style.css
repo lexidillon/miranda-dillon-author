@@ -86,15 +86,6 @@ li {
   color: var(--dark-color) !important;
 }
 
-.contact-box {
-  background: var(--accent-color);
-  border: 2px solid var(--dark-color);
-  padding: 20px 40px;
-  opacity: 0.7;
-  border-radius: 10px;
-  margin: 0px 90px;
-}
-
 .contact-icons {
   font-size: 30px;
   text-align: center;
@@ -191,10 +182,26 @@ li {
 }
 
 .miranda-image,
-.about-images {
+.about-images,
+.book-sale-image {
   margin: 0 auto;
   display: block;
   border-radius: 10px;
+}
+
+.my-book-section {
+  background: var(--primary-color);
+  padding: 90px 60px 150px 60px;
+  line-height: 1.5;
+}
+
+.my-book-section .btn-info {
+  display: block;
+}
+
+.my-book-section .subtitle {
+  font-size: 45px;
+  margin-bottom: 80px;
 }
 
 .my-story-content {
@@ -254,8 +261,12 @@ li {
   line-height: 1.8;
 }
 
-.blog-section {
+.unshatterables-section {
   padding: 130px 60px 60px 60px;
+}
+
+.unshatterables-section p {
+  line-height: 36px;
 }
 
 .subtitle {
