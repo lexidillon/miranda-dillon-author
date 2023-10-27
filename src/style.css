@@ -15,9 +15,15 @@
   --light-color: #f5c7f7;
   --accent-color: #a393eb; */
 
+  /* //original fonts//
   --heading-font-family: "Raleway", sans-serif;
   --secondary-font-family: "Open Sans", sans-serif;
-  --sub-text-font-family: "Josefin Sans", sans-serif;
+  --sub-text-font-family: "Josefin Sans", sans-serif; */
+
+  /* mirs fonts */
+  --heading-font-family: "Lora", serif;
+  --secondary-font-family: "Lora", serif;
+  --sub-text-font-family: "Playfair Display", serif;
 }
 
 /* body {
@@ -63,10 +69,11 @@ li {
 
 .btn-info {
   font-size: 16px;
+  font-weight: 500;
   margin: 15px;
   padding: 15px 30px;
   opacity: 0.7;
-  font-family: var(--secondary-font-family);
+  font-family: var(--sub-text-font-family);
   background-color: var(--light-color) !important;
   border-radius: 10px !important;
   transition: all 100ms ease-in-out;
@@ -76,6 +83,7 @@ li {
 
 .btn-info:hover {
   background-color: var(--accent-color) !important;
+  color: var(--dark-color) !important;
 }
 
 .contact-box {
@@ -139,8 +147,13 @@ li {
   color: var(--primary-color);
 }
 
-.featured-works-link:hover {
+.featured-works-link {
   text-decoration: none;
+  color: var(red);
+}
+
+.featured-works-link:hover {
+  color: var(--accent-color);
 }
 
 .featured-works img {
@@ -193,14 +206,14 @@ li {
 }
 
 .my-story-section {
-  background: var(--primary-color);
+  background: var(--light-color);
   padding: 70px 60px 130px 60px;
   line-height: 1.5;
 }
 
 .my-story-section .title {
-  color: var(--light-color);
-  -webkit-text-stroke: 1px var(--dark-color);
+  color: var(--dark-color);
+  /* -webkit-text-stroke: 1px var(--dark-color); */
 }
 
 .my-work-section .subtitle {
