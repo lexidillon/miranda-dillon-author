@@ -3,18 +3,26 @@
   --dark-color: #1f4e5f;
   --light-color: #f4f7f7;
   --accent-color: #79a8a9; */
-  --primary-color: #cc9de1;
-  --dark-color: black;
-  --light-color: #eff5f5;
-  --accent-color: #799ba5;
+
+  /* mir's options */
+  --primary-color: #cc99ff;
+  --dark-color: #5926ff;
+  --light-color: #ffcce6;
+  --accent-color: #cc9de1;
+
+  /* --primary-color: #5e63b6;
+  --dark-color: #27296d;
+  --light-color: #f5c7f7;
+  --accent-color: #a393eb; */
+
   --heading-font-family: "Raleway", sans-serif;
   --secondary-font-family: "Open Sans", sans-serif;
   --sub-text-font-family: "Josefin Sans", sans-serif;
 }
 
-body {
+/* body {
   background-color: var(--light-color);
-}
+} */
 
 footer p {
   color: var(--dark-color);
@@ -150,7 +158,7 @@ li {
 }
 
 .hero {
-  background: var(--primary-color);
+  background: var(--dark-color);
   padding: 180px 60px 130px 60px;
   line-height: 1.5;
 }
