@@ -208,8 +208,8 @@ li {
   font-family: var(--secondary-font-family);
   font-size: 18px;
   color: var(--dark-color);
-  line-height: 1.7;
-  margin: 30px 170px;
+  line-height: 1.9;
+  margin: 50px 170px 70px 170px;
 }
 
 .my-story-section {
