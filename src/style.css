@@ -162,7 +162,8 @@ li {
 }
 
 .hero {
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background: rgb(204, 153, 255, 0.8);
   padding: 180px 60px 130px 60px;
   line-height: 1.5;
 }
