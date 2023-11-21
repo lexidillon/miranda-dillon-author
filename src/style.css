@@ -1,34 +1,15 @@
 :root {
-  /* --primary-color: #4d727e;
-  --dark-color: #1f4e5f;
-  --light-color: #f4f7f7;
-  --accent-color: #79a8a9; */
-
   /* mir's options */
   --primary-color: #cc99ff;
   --dark-color: #5926ff;
   --light-color: #ffcce6;
   --accent-color: #cc9de1;
 
-  /* --primary-color: #5e63b6;
-  --dark-color: #27296d;
-  --light-color: #f5c7f7;
-  --accent-color: #a393eb; */
-
-  /* //original fonts//
-  --heading-font-family: "Raleway", sans-serif;
-  --secondary-font-family: "Open Sans", sans-serif;
-  --sub-text-font-family: "Josefin Sans", sans-serif; */
-
   /* mirs fonts */
   --heading-font-family: "Lora", serif;
   --secondary-font-family: "Lora", serif;
   --sub-text-font-family: "Playfair Display", serif;
 }
-
-/* body {
-  background-color: var(--light-color);
-} */
 
 footer p {
   color: var(--dark-color);
@@ -91,21 +72,9 @@ li {
   text-align: center;
 }
 
-/* .contact-page-icons a {
-  font-family: var(--secondary-font-family);
-  font-size: 18px;
-  color: var(--light-color);
-  line-height: 1.3;
-}
-
-.contact-page-icons a:hover {
-  text-decoration: none;
-  color: var(--dark-color);
-} */
-
 .contact-icon-titles:hover {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .contact-image {
@@ -124,7 +93,7 @@ li {
 .contact-subtitle {
   font-family: var(--secondary-font-family);
   font-size: 18px;
-  color: var(--light-color);
+  color: var(--dark-color);
   line-height: 1.3;
 }
 
@@ -158,23 +127,22 @@ li {
 
 .hero h1 {
   color: var(--dark-color);
-  -webkit-text-stroke: 1px var(--dark-color);
+  -webkit-text-stroke: 1px var(--light-color);
 }
 
 .hero {
-  /* background: var(--primary-color); */
   background: rgb(204, 153, 255, 0.8);
   padding: 180px 60px 130px 60px;
   line-height: 1.5;
 }
 
 .my-work-section {
-  padding: 170px 60px 100px 60px;
+  padding: 180px 70px 110px 70px;
 }
 
 .my-work-section,
 .contact-section {
-  background: var(--primary-color);
+  background: rgb(204, 153, 255, 0.8);
   line-height: 1.5;
 }
 
@@ -191,7 +159,7 @@ li {
 }
 
 .my-book-section {
-  background: var(--primary-color);
+  background: rgb(204, 153, 255, 0.8);
   padding: 90px 60px 150px 60px;
   line-height: 1.5;
 }
@@ -214,14 +182,17 @@ li {
 }
 
 .my-story-section {
-  background: var(--light-color);
-  padding: 70px 60px 130px 60px;
-  line-height: 1.5;
+  background: rgb(255, 204, 230, 0.8);
+  padding: 80px 60px 150px 60px;
+}
+
+.my-story-section,
+p {
+  line-height: 52px;
 }
 
 .my-story-section .title {
   color: var(--dark-color);
-  /* -webkit-text-stroke: 1px var(--dark-color); */
 }
 
 .my-work-section .subtitle {
@@ -267,7 +238,7 @@ li {
 }
 
 .unshatterables-section p {
-  line-height: 36px;
+  line-height: 42px;
 }
 
 .subtitle {
@@ -389,11 +360,11 @@ li {
   }
 
   .my-story-section {
-    padding: 10px;
+    padding: 50px 10px;
   }
 
   .my-work-section {
-    padding: 150px 60px 50px 60px;
+    padding: 160px 70px 60px 70px;
   }
 
   .my-work-section .work-icons {
