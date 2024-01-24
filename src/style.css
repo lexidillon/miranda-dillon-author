@@ -352,8 +352,7 @@ p {
   }
 
   .hero,
-  .about-hero,
-  .unshatterables-section {
+  .about-hero {
     padding: 120px 35px 50px 35px;
     line-height: 1;
   }
@@ -373,7 +372,8 @@ p {
     padding: 50px 10px;
   }
 
-  .my-work-section {
+  .my-work-section,
+  .my-book-section {
     padding: 160px 70px 60px 70px;
   }
 
@@ -399,6 +399,11 @@ p {
 
   .title {
     font-size: 50px;
+  }
+
+  .unshatterables-section,
+  .my-book-section {
+    padding: 120px 40px 50px 40px;
   }
 
   .work-subtitle {
