@@ -292,7 +292,8 @@ p {
     padding: 10px 20px;
   }
 
-  .contact-section {
+  .contact-section,
+  .unshatterables-section {
     padding: 160px 5px 30px 5px;
   }
 
@@ -351,7 +352,8 @@ p {
   }
 
   .hero,
-  .about-hero {
+  .about-hero,
+  .unshatterables-section {
     padding: 120px 30px 50px 30px;
     line-height: 1;
   }
