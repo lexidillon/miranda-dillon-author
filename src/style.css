@@ -196,7 +196,7 @@ p {
 }
 
 .my-work-section .subtitle {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0px 130px;
 }
 
@@ -228,17 +228,12 @@ p {
   color: black !important;
 }
 
-.works-info {
-  font-family: var(--heading-font-family);
-  line-height: 1.8;
+.quotes-section {
+  margin: 30px;
 }
 
-.unshatterables-section {
-  padding: 130px 60px 60px 60px;
-}
-
-.unshatterables-section p {
-  line-height: 42px;
+.quotes-section p {
+  line-height: 1.5;
 }
 
 .subtitle {
@@ -253,6 +248,19 @@ p {
   font-weight: 600;
   font-size: 80px;
   color: var(--dark-color);
+}
+
+.unshatterables-section {
+  padding: 130px 60px 60px 60px;
+}
+
+.unshatterables-section p {
+  line-height: 42px;
+}
+
+.works-info {
+  font-family: var(--heading-font-family);
+  line-height: 1.8;
 }
 
 .work-icons {
