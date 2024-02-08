@@ -406,6 +406,10 @@ p {
     padding: 120px 40px 50px 40px;
   }
 
+  .unshatterables-section p {
+    line-height: 25px;
+  }
+
   .unshatterables-section .title {
     font-size: 40px;
   }
